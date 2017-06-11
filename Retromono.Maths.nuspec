@@ -2,14 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Retromono.Maths</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <authors>Maurycy Zarzycki Retrocade.net</authors>
         <owners>retrocadenet</owners>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-        <projectUrl>https://github.com/RetrocadeNet/Retromono.Maths</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A set of classes which allow handy and fast casted (to `float` and `int`) versions of all `System.Math` methods with some additional functionalities.</description>
-        <releaseNotes>Initial release</releaseNotes>
+        <releaseNotes>Added rounding options to MathI which autocast to int</releaseNotes>
         <copyright>Copyright 2017 Maurycy Zarzycki</copyright>
         <tags>casting math monogame game</tags>
     </metadata>

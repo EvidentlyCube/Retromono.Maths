@@ -110,5 +110,126 @@ namespace Retromono.Maths {
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static int Sign(long value) => Math.Sign(value);
+        
+        // Rounding
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(decimal value) => (int) Math.Ceiling(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(double value) => (int) Math.Ceiling(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(float value) => (int) Math.Ceiling(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(byte value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(char value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(ushort value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(uint value) => (int)value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(sbyte value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(short value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Ceiling(int value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(decimal value) => (int) Math.Floor(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(double value) => (int) Math.Floor(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(float value) => (int) Math.Floor(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(byte value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(char value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(ushort value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(sbyte value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(short value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Floor(int value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(decimal value) => (int) Math.Round(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(double value) => (int) Math.Round(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(float value) => (int) Math.Round(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(byte value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(char value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(ushort value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(sbyte value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(short value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(int value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(decimal value, MidpointRounding mode) => (int) Math.Round(value, mode);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(double value, MidpointRounding mode) => (int) Math.Round(value, mode);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Round(float value, MidpointRounding mode) => (int) Math.Round(value, mode);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(decimal value) => (int) Math.Truncate(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(double value) => (int) Math.Truncate(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(float value) => (int) Math.Truncate(value);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(byte value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(char value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(ushort value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(sbyte value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(short value) => value;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static int Truncate(int value) => value;
     }
 }
